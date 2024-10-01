@@ -1,4 +1,4 @@
-This script is capable of generating plots for three devices on the AD2 and can generate IV curves. Data visualization performed by a combination of the `matplotlib` and `pandas` library.
+This script is capable of generating plots for three devices on the AD2 and can generate IV curves. Data visualization is performed by a combination of the `matplotlib` and `pandas` library.
 * Oscilloscope (up to three waveforms per plot)
 * Vector Network Analyzer
 * Impedance Analyzer 
