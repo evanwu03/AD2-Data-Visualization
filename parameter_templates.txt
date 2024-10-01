@@ -1,0 +1,35 @@
+Oscilloscope
+-x_range: Tuple specifying the range for the x-axis (e.g., (0, 10)).
+-y_range: Tuple specifying the range for the y-axis (e.g., (-5, 5)).
+-title: Title of the graph (e.g., 'Sample Graph').
+-x_ticks: Number of intervals on the x-axis (e.g., 10).
+-y_ticks: Number of intervals on the y-axis (e.g., 10).
+-color_1: Color for Channel 1 (default is orange).
+-color_2: Color for Channel 2 (default is blue).
+-save_path: Path to save the plot image (e.g., 'Graphs/oscilloscope_plot.png').
+
+
+Network Analyzer
+-x_range: Tuple specifying the range for the x-axis (e.g., (1, 1000)).
+-y_range: Tuple specifying the range for the y-axis (e.g., (-10, 10)).
+-title: Title of the graph (e.g., 'Bode Plot').
+-x_ticks: Number of intervals on the x-axis (e.g., 10).
+-y_ticks: Number of intervals on the y-axis (e.g., 10).
+-color_1: Color for Channel 1 Magnitude plot (default is orange).
+-color_2: Color for Channel 2 Magnitude plot (default is blue).
+-color_phase: Color for Phase plot (default is green).
+-save_path: Path to save the plot image (e.g., 'Graphs/network_analyzer_plot.png').
+
+
+Impedance Analyzer
+-xlims: Tuple specifying the range for the x-axis (e.g., (100, 100000)).
+-ylims_rs_xs: Tuple specifying the range for the y-axis of Trace Rs and Trace Xs (e.g., (0, 20)).
+-ylims_th: Tuple specifying the range for the y-axis of Trace th (e.g., (30, 70)).
+-xticks: List specifying the x-axis ticks (e.g., [100, 1000, 10000, 100000]).
+-yticks_rs_xs: Number of intervals on the y-axis for Resistance and Reactance plots (e.g., 5).
+-yticks_th: Number of intervals on the y-axis for Phase plot (e.g., 5).
+-color_trace_rs: Color for Trace Rs plot (default is orange).
+-color_trace_xs: Color for Trace Xs plot (default is blue).
+-color_trace_th: Color for Trace th plot (default is yellow).
+-save_path: Path to save the plot image (e.g., 'Graphs/impedance_plot.png').
+
