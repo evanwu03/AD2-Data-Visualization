@@ -279,7 +279,7 @@ def plot_from_csv(filename, params):
         elif device == 'curve_trace':
             fig = plot_curve_trace(df,params)
         else:
-            raise ValueError("Unsupported device type. Please use 'oscilloscope' or 'network_analyzer'.")
+            raise ValueError("Unsupported device type. Please select a valid device.")
 
         # Save the plot if 'save_path' is provided in params
         save_path = params.get('save_path')
